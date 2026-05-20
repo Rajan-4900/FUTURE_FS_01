@@ -18,17 +18,17 @@ export default function Footer() {
   return (
     <footer className="dark:bg-dark-card bg-light-card border-t dark:border-dark-border border-light-border pt-16 pb-8 relative" aria-label="Site Footer">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Main Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
-          
+
           {/* Column 1: Brand Info */}
           <div className="space-y-5">
             <a href="#home" className="inline-block text-2xl font-bold dark:text-white text-dark-bg tracking-tighter hover:opacity-80 transition-opacity">
-              Dev<span className="text-gradient">Portfolio</span>
+              Rajan L<span className="text-gradient"> Portfolio</span>
             </a>
             <p className="text-sm dark:text-gray-400 text-gray-600 leading-relaxed max-w-sm">
-              Creating high-performance, accessible, and pixel-perfect web applications with clean architecture and modern designs.
+              Building modern, responsive, and AI-powered web applications with creative UI/UX, clean design, and real-world development experience.
             </p>
             <div className="pt-2">
               <SocialIcons className="gap-4" iconSize={18} />
@@ -62,8 +62,8 @@ export default function Footer() {
             <ul className="space-y-3 text-sm font-medium">
               <li className="flex items-center gap-3 dark:text-gray-400 text-gray-600">
                 <FiMail className="text-primary-orange dark:text-sky-500" />
-                <a href="mailto:hello@example.com" className="hover:text-primary-orange dark:hover:text-sky-500 transition-colors">
-                  hello@example.com
+                <a href="mailto:rajan91480@gmail.com" className="hover:text-primary-orange dark:hover:text-sky-500 transition-colors">
+                  rajan91480@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-3 dark:text-gray-400 text-gray-600">
@@ -84,7 +84,7 @@ export default function Footer() {
         {/* Bottom Row */}
         <div className="border-t dark:border-dark-border border-light-border pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs dark:text-gray-500 text-gray-400 font-mono text-center sm:text-left">
-            &copy; {new Date().getFullYear()} John Doe. All rights reserved.
+            &copy; {new Date().getFullYear()} Rajan L. All rights reserved.
           </p>
 
           <div className="flex items-center gap-6">
