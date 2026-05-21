@@ -5,18 +5,14 @@ import SectionTitle from "./ui/SectionTitle";
 import { FiCode, FiTerminal, FiTool } from "react-icons/fi";
 import { 
   SiReact, 
-  SiNextdotjs, 
   SiJavascript, 
-  SiTypescript, 
   SiTailwindcss, 
   SiNodedotjs, 
-  SiExpress, 
+  SiFlask,
   SiMongodb, 
-  SiPostgresql, 
   SiFirebase, 
   SiGithub, 
   SiDocker, 
-  SiFigma, 
   SiVite 
 } from "react-icons/si";
 
@@ -27,9 +23,9 @@ const skillCategories = [
     icon: <FiCode className="text-lg" />,
     skills: [
       { name: "React.js", level: "Expert", desc: "Hooks, Context API, Redux Toolkit, Performance", icon: <SiReact className="text-3xl text-sky-400" /> },
-      { name: "Next.js", level: "Advanced", desc: "App Router, SSR, SSG, ISR, API Routes", icon: <SiNextdotjs className="text-3xl dark:text-white text-dark-bg" /> },
+      //{ name: "Next.js", level: "Advanced", desc: "App Router, SSR, SSG, ISR, API Routes", icon: <SiNextdotjs className="text-3xl dark:text-white text-dark-bg" /> },
       { name: "JavaScript", level: "Expert", desc: "ES6+, Async/Await, Closures, DOM Manipulation", icon: <SiJavascript className="text-3xl text-yellow-400" /> },
-      { name: "TypeScript", level: "Advanced", desc: "Strict types, Generics, Interfaces, Custom types", icon: <SiTypescript className="text-3xl text-blue-500" /> },
+      //{ name: "TypeScript", level: "Advanced", desc: "Strict types, Generics, Interfaces, Custom types", icon: <SiTypescript className="text-3xl text-blue-500" /> },
       { name: "Tailwind CSS", level: "Expert", desc: "Utility-first design, custom configs, animations", icon: <SiTailwindcss className="text-3xl text-sky-400" /> },
     ],
   },
@@ -38,11 +34,12 @@ const skillCategories = [
     title: "Backend & Databases",
     icon: <FiTerminal className="text-lg" />,
     skills: [
-      { name: "Node.js", level: "Advanced", desc: "Event loop, Stream pipelines, File System APIs", icon: <SiNodedotjs className="text-3xl text-green-500" /> },
-      { name: "Express.js", level: "Advanced", desc: "REST APIs, Custom middlewares, CORS, Security", icon: <SiExpress className="text-3xl dark:text-white text-dark-bg" /> },
-      { name: "MongoDB", level: "Advanced", desc: "Aggregation frameworks, Schema design, Indexing", icon: <SiMongodb className="text-3xl text-green-600" /> },
-      { name: "PostgreSQL", level: "Intermediate", desc: "Relational schemas, Joins, Transactions, Queries", icon: <SiPostgresql className="text-3xl text-blue-400" /> },
-      { name: "Firebase", level: "Advanced", desc: "Cloud Firestore, Cloud Functions, OAuth logins", icon: <SiFirebase className="text-3xl text-orange-500" /> },
+      { name: "Node.js", level: "Intermediate", desc: "Event loop, Stream pipelines, File System APIs", icon: <SiNodedotjs className="text-3xl text-green-500" /> },
+      //{ name: "Express.js", level: "Intermediate", desc: "REST APIs, Custom middlewares, CORS, Security", icon: <SiExpress className="text-3xl dark:text-white text-dark-bg" /> },
+      { name: "Flask", level: "Intermediate", desc: "REST APIs, Backend Development, Routing, Authentication", icon: <SiFlask className="text-3xl text-green-500" /> },
+      { name: "MongoDB", level: "Intermediate", desc: "Aggregation frameworks, Schema design, Indexing", icon: <SiMongodb className="text-3xl text-green-600" /> },
+      //{ name: "PostgreSQL", level: "Intermediate", desc: "Relational schemas, Joins, Transactions, Queries", icon: <SiPostgresql className="text-3xl text-blue-400" /> },
+      { name: "Firebase", level: "Intermediate", desc: "Cloud Firestore, Cloud Functions, OAuth logins", icon: <SiFirebase className="text-3xl text-orange-500" /> },
     ],
   },
   {
@@ -52,8 +49,8 @@ const skillCategories = [
     skills: [
       { name: "Git & GitHub", level: "Advanced", desc: "Branching strategies, CI/CD Actions, Hooks", icon: <SiGithub className="text-3xl dark:text-white text-dark-bg" /> },
       { name: "Docker", level: "Intermediate", desc: "Dockerfiles, Docker-compose, Container hosting", icon: <SiDocker className="text-3xl text-blue-500" /> },
-      { name: "Figma", level: "Intermediate", desc: "UI prototyping, Design-to-code conversions", icon: <SiFigma className="text-3xl text-purple-400" /> },
-      { name: "Vite / Webpack", level: "Advanced", desc: "Bundling, code splitting, environment configs", icon: <SiVite className="text-3xl text-purple-500" /> },
+      //{ name: "Figma", level: "Intermediate", desc: "UI prototyping, Design-to-code conversions", icon: <SiFigma className="text-3xl text-purple-400" /> },
+      { name: "React Vite", level: "Advanced", desc: "Bundling, code splitting, environment configs", icon: <SiVite className="text-3xl text-purple-500" /> },
     ],
   },
 ];
